@@ -1,0 +1,31 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+.not-found-dark {
+  background-color: #000000;
+}
+.not-found-img {
+  width: 60%;
+  max-width: 200px;
+}
+.nf-head {
+  font-weight: 400;
+  font-size: 25px;
+  color: #171f46;
+  text-align: center;
+}
+.nf-head-dark {
+  color: #fff;
+}
+.nf-para {
+  color: #64748b;
+  text-align: center;
+  font-size: 12px;
+}
+.nf-para-dark {
+  color: #dcdcdc;
+}

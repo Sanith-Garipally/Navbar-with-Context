@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  border-bottom: 1px solid #dcdcdc;
+}
+.navbar-dark {
+  background-color: #333333;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+}
+.nav-content-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list-container {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.list-item {
+  margin-right: 10px;
+  color: #171f46;
+  font-size: 12px;
+  font-weight: bold;
+}
+.list-item-dark {
+  color: #fff;
+}
+.logo {
+  width: 35px;
+  height: 35px;
+}
+.theme-img {
+  width: 25px;
+}
+.theme-btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
